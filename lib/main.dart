@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fresco/home_page.dart';
+import 'package:fresco/result_page.dart';
+import 'package:fresco/newfaqs.dart';
+import 'package:fresco/secondary_home_page.dart';
 
 void main() {
   runApp(AppWidget());
@@ -19,9 +21,10 @@ class AppWidget extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       routes: {
-        "/": (context) => HomePage(), // Home Page
-        "/": (context) => HomePage(), // Login Page
-        "/": (context) => HomePage(), // Sign Up Pagefile
+        "/": (context) => secondaryhomepage(), // Home Page
+        "/home": (context) => secondaryhomepage(),
+        "/newfaqs": (context) => newfaqs(),
+        "/result_page": (context) => result_page(),
       },
     );
   }
