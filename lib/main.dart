@@ -12,7 +12,7 @@ class AppWidget extends StatelessWidget {
   bool signup = false;
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(  
+    return MaterialApp(
       themeMode: ThemeMode.light,
       darkTheme: ThemeData(
         brightness: Brightness.dark,
