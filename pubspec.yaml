@@ -31,6 +31,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
+  google_sign_in: ^5.2.1
   
   loading_animations: "^2.1.0"
   loading_animation_widget:
