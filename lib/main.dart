@@ -3,10 +3,6 @@ import 'package:fresco/result_page.dart';
 import 'package:fresco/newfaqs.dart';
 import 'package:fresco/secondary_home_page.dart';
 import 'package:fresco/about.dart';
-import 'package:flutter/material.dart';
-import 'package:fresco/result_page.dart';
-import 'package:fresco/newfaqs.dart';
-import 'package:fresco/secondary_home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:fresco/widget_tree.dart';
 
@@ -31,7 +27,7 @@ class AppWidget extends StatelessWidget {
       ),
       home: const WidgetTree(),
       routes: {
-        "/": (context) => secondaryhomepage(), // Home Page
+        //"/": (context) => secondaryhomepage(), // Home Page
         "/home": (context) => secondaryhomepage(),
         "/newfaqs": (context) => newfaqs(),
         "/result_page": (context) => result_page(),
