@@ -101,12 +101,23 @@ class _secondaryhomepageState extends State<secondaryhomepage> {
             ),
             ListTile(
               title: Text(
-                'About Us',
+                'About',
               ),
               onTap: () {
                 Navigator.pushNamed(
                   context,
                   '/about',
+                );
+              },
+            ),
+            ListTile(
+              title: const Text(
+                'LogOut',
+              ),
+              onTap: () {
+                Navigator.pushNamed(
+                  context,
+                  '/newfaqs',
                 );
               },
             ),
