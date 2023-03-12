@@ -31,14 +31,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
   getwidget: ^2.0.4
     
   google_sign_in: ^5.2.1
   
   loading_animations: "^2.1.0"
   loading_animation_widget:
-  getwidget: ^2.0.4
+
 
 
 
