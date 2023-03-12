@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438936427267",
+    "project_id": "fresco-d7f64",
+    "storage_bucket": "fresco-d7f64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438936427267:android:eb29b8dbe2b23c7f21e736",
+        "android_client_info": {
+          "package_name": "com.example.fresco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438936427267-bjmscppl0u2qb7ie1f3ji472q9fcqehe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA56uf3A0gtaixGfmhBXmohEw_0U3R7d2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438936427267-bjmscppl0u2qb7ie1f3ji472q9fcqehe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
