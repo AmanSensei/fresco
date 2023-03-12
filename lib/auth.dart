@@ -24,7 +24,6 @@ class Auth {
     await _firebaseAuth.createUserWithEmailAndPassword(
         email: email, password: password);
   }
-}
 
   Future<void> signOut() async {
     await _firebaseAuth.signOut();
