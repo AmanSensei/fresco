@@ -1,9 +1,9 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:fresco/result_page.dart';
 import 'package:fresco/newfaqs.dart';
 import 'package:fresco/secondary_home_page.dart';
 import 'package:fresco/about.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:fresco/widget_tree.dart';
 
 Future<void> main() async {
