@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fresco/result_page.dart';
 import 'package:fresco/newfaqs.dart';
 import 'package:fresco/secondary_home_page.dart';
+import 'package:fresco/about.dart';
 
 void main() {
   runApp(AppWidget());
@@ -12,7 +13,7 @@ class AppWidget extends StatelessWidget {
   bool signup = false;
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(  
+    return MaterialApp(
       themeMode: ThemeMode.light,
       darkTheme: ThemeData(
         brightness: Brightness.dark,
@@ -25,6 +26,7 @@ class AppWidget extends StatelessWidget {
         "/home": (context) => secondaryhomepage(),
         "/newfaqs": (context) => newfaqs(),
         "/result_page": (context) => result_page(),
+        "/about": (context) => about(),
       },
     );
   }

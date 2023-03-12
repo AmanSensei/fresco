@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:fresco/main.dart';
 import 'package:fresco/newfaqs.dart';
-import 'package:fresco/secondary_home_page.dart';
+import 'package:fresco/about.dart';
 
-class secondaryhomepage extends StatelessWidget {
+class secondaryhomepage extends StatefulWidget {
+  @override
+  State<secondaryhomepage> createState() => _secondaryhomepageState();
+}
+
+class _secondaryhomepageState extends State<secondaryhomepage> {
+  final _textprompt = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,6 +43,7 @@ class secondaryhomepage extends StatelessWidget {
               child: Column(
                 children: [
                   TextFormField(
+                    controller: _textprompt,
                     decoration: InputDecoration(
                       iconColor: Colors.black,
                       hintText: 'Enter text prompt to generate image',
@@ -49,6 +56,7 @@ class secondaryhomepage extends StatelessWidget {
                   ElevatedButton(
                     child: Text('Generate'),
                     onPressed: () {
+                      //Text(_textprompt.text);
                       Navigator.pushNamed(context, "/result_page");
                     },
                   ),
@@ -95,7 +103,12 @@ class secondaryhomepage extends StatelessWidget {
               title: Text(
                 'About Us',
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(
+                  context,
+                  '/about',
+                );
+              },
             ),
           ],
         ),
