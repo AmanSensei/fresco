@@ -27,7 +27,7 @@ class AppWidget extends StatelessWidget {
       ),
       home: const WidgetTree(),
       routes: {
-        "/": (context) => secondaryhomepage(), // Home Page
+        //"/": (context) => secondaryhomepage(), // Home Page
         "/home": (context) => secondaryhomepage(),
         "/newfaqs": (context) => newfaqs(),
         "/result_page": (context) => result_page(),
