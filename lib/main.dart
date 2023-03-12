@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fresco/result_page.dart';
 import 'package:fresco/newfaqs.dart';
 import 'package:fresco/secondary_home_page.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:fresco/widget_tree.dart';
+import 'package:fresco/about.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,6 +29,7 @@ class AppWidget extends StatelessWidget {
         "/home": (context) => secondaryhomepage(),
         "/newfaqs": (context) => newfaqs(),
         "/result_page": (context) => result_page(),
+        "/about": (context) => about(),
       },
     );
   }

@@ -65,6 +65,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.0"
+<<<<<<< HEAD
+=======
   convert:
     dependency: transitive
     description:
@@ -89,6 +91,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.17.2"
+>>>>>>> f66943c7e8e430703da3c2b03ba8e7be469528f1
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -161,8 +164,13 @@ packages:
   flutter_native_splash:
     dependency: "direct dev"
     description:
+<<<<<<< HEAD
+      name: flutter_lints
+      sha256: aeb0b80a8b3709709c9cc496cdc027c5b3216796bc0af0ce1007eaf24464fd4c
+=======
       name: flutter_native_splash
       sha256: "048bd1f1dc0e5ea25899f702815934d9a9e916fe23451c320e7dd94d5e3ad933"
+>>>>>>> f66943c7e8e430703da3c2b03ba8e7be469528f1
       url: "https://pub.dev"
     source: hosted
     version: "2.2.17"
@@ -171,11 +179,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
+=======
   flutter_web_plugins:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
+>>>>>>> f66943c7e8e430703da3c2b03ba8e7be469528f1
   getwidget:
     dependency: "direct main"
     description:
@@ -184,6 +195,21 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+<<<<<<< HEAD
+  js:
+    dependency: transitive
+    description:
+      name: js
+      sha256: "5528c2f391ededb7775ec1daa69e65a2d61276f7552de2b5f7b8d34ee9fd4ab7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.5"
+  lints:
+    dependency: transitive
+    description:
+      name: lints
+      sha256: "5e4a9cd06d447758280a8ac2405101e0e2094d2a1dbdd3756aec3fe7775ba593"
+=======
   google_sign_in:
     dependency: "direct main"
     description:
@@ -197,6 +223,7 @@ packages:
     description:
       name: google_sign_in_android
       sha256: "612bf44d5de01f32bf127ea1c8114281075c7a39f621d1e34cf70aa069840c5c"
+>>>>>>> f66943c7e8e430703da3c2b03ba8e7be469528f1
       url: "https://pub.dev"
     source: hosted
     version: "6.1.6"
@@ -397,6 +424,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.16"
+<<<<<<< HEAD
+=======
   typed_data:
     dependency: transitive
     description:
@@ -413,6 +442,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.4"
+>>>>>>> f66943c7e8e430703da3c2b03ba8e7be469528f1
   vector_math:
     dependency: transitive
     description:
@@ -421,6 +451,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+<<<<<<< HEAD
+=======
   xml:
     dependency: transitive
     description:
@@ -437,6 +469,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
+>>>>>>> f66943c7e8e430703da3c2b03ba8e7be469528f1
 sdks:
   dart: ">=2.18.6 <3.0.0"
   flutter: ">=3.0.0"

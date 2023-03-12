@@ -9,25 +9,28 @@ class result_page extends StatefulWidget {
   const result_page({super.key});
 
   @override
-  State<result_page> createState() => _result_pageState();
+  State<result_page> createState() => result_pageState();
 }
 
-class _result_pageState extends State<result_page> {
+class result_pageState extends State<result_page> {
   @override
   Widget build(BuildContext context) {
+    bool generated = false;
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text('Result')),
       body: SingleChildScrollView(
-        child: Column(
-          children: [
+        child: Padding(
+          padding: EdgeInsets.all(10),
+          child: Column(children: [
             SizedBox(
-              height: 250,
+              height: 300,
             ),
-            LoadingAnimationWidget.staggeredDotsWave(
-              color: Colors.deepPurple,
-              size: 100,
+            Center(
+              child: CircularProgressIndicator(
+                color: Colors.deepPurple,
+              ),
             ),
-          ],
+          ]),
         ),
       ),
     );
