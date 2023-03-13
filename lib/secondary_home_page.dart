@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fresco/main.dart';
 import 'package:fresco/newfaqs.dart';
 import 'package:fresco/about.dart';
+import 'package:fresco/secondary_home_page.dart';
 
 class secondaryhomepage extends StatefulWidget {
   @override
@@ -81,7 +82,7 @@ class _secondaryhomepageState extends State<secondaryhomepage> {
                 color: Colors.deepPurple,
               ),
               child: Text(
-                'Need Something...',
+                'Dashboard',
                 style: const TextStyle(
                   fontSize: 24,
                   color: Colors.white,
@@ -117,7 +118,7 @@ class _secondaryhomepageState extends State<secondaryhomepage> {
               onTap: () {
                 Navigator.pushNamed(
                   context,
-                  '/newfaqs',
+                  '/home_page',
                 );
               },
             ),
