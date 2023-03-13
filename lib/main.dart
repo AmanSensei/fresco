@@ -5,6 +5,7 @@ import 'package:fresco/newfaqs.dart';
 import 'package:fresco/secondary_home_page.dart';
 import 'package:fresco/about.dart';
 import 'package:fresco/widget_tree.dart';
+import 'package:fresco/secondary_home_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,6 +29,7 @@ class AppWidget extends StatelessWidget {
       home: const WidgetTree(),
       routes: {
         //"/": (context) => secondaryhomepage(), // Home Page
+        '/home_page': (context) => home_page(),
         "/home": (context) => secondaryhomepage(),
         "/newfaqs": (context) => newfaqs(),
         "/result_page": (context) => result_page(),
