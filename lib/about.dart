@@ -17,7 +17,7 @@ class _aboutState extends State<about> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('About Us'),
+          title: Text('About'),
         ),
         body: SingleChildScrollView(
           child: Padding(

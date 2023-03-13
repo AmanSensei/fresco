@@ -118,7 +118,7 @@ class _secondaryhomepageState extends State<secondaryhomepage> {
               onTap: () {
                 Navigator.pushNamed(
                   context,
-                  '/home_page',
+                  '/login_register_page',
                 );
               },
             ),
