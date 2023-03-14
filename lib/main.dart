@@ -26,6 +26,7 @@ class AppWidget extends StatelessWidget {
       ),
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
+        fontFamily: "Roboto",
       ),
       home: const WidgetTree(),
       routes: {
