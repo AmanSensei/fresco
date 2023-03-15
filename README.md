@@ -9,7 +9,7 @@ Customizable settings for more control over the output,
 Easy to use user interface, High-quality output resolution.
 
 ## Requirements
-A computer with a modern web browser
+An android device.
 
 ## Usage
 Visit the Fresco website and sign up for an account-
